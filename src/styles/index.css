@@ -1,0 +1,47 @@
+:root {
+  --dsgFont: "Fasthand", cursive;
+  --mainColor: rgb(255, 123, 0);
+  --hoverColor: rgb(192, 110, 3);
+  --white: #fff;
+  --black: #000;
+}
+
+/** RESET **/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button {
+  border: none;
+}

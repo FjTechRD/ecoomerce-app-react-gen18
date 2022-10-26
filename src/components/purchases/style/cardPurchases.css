@@ -1,0 +1,43 @@
+.purchase-card__container {
+  padding: 1rem 2rem;
+  background-color: #aaa5;
+  border-radius: 0 1rem 1rem 0;
+  margin-bottom: 1rem;
+  max-width: 40%;
+}
+
+.purchase-card__date {
+  color: var(--mainColor);
+  position: relative;
+}
+
+.purchase-card__date::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  top: 2rem;
+  height: 0.2rem;
+  width: 70%;
+  background-color: #aaa;
+}
+
+.purchase-card__products {
+  margin-top: 1rem;
+}
+
+.purchase-card__products span {
+  color: rgb(129, 129, 129);
+  font-weight: 400;
+}
+
+.purchase-card__products-title {
+  font-size: 2rem;
+}
+.purchase-card__products-quantity {
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+.purchase-card__products-price {
+  font-weight: 700;
+}

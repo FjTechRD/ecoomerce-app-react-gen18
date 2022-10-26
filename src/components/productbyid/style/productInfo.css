@@ -1,0 +1,88 @@
+.product__info {
+  width: 100%;
+  max-width: 70rem;
+  padding: 2rem;
+  background-color: #aaa4;
+}
+
+.product-info__name {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.product-info__description {
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.product-info__footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 3rem;
+  align-items: center;
+}
+
+.product-info__quantity-label,
+.product-info__price-label {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.product-info__price-number {
+  font-weight: 700;
+  display: flex;
+  gap: 0.4rem;
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
+}
+.product-info__price-number::before {
+  content: "$";
+}
+
+.counter {
+  display: flex;
+  border: 0.1rem solid #aaa6;
+  width: max-content;
+}
+
+.counter__minus,
+.counter__plus,
+.counter__number {
+  width: 3rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter__number {
+  aspect-ratio: 1.5;
+  border-right: 0.1rem solid #aaa;
+  border-left: 0.1rem solid #aaa;
+}
+
+.counter__minus,
+.counter__plus {
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.product-info__btn {
+  grid-column: span 2;
+  padding: 1.3rem 0;
+  background-color: var(--mainColor);
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.product-info__btn:hover {
+  filter: brightness(1.1);
+  transition: filter 150ms ease;
+}

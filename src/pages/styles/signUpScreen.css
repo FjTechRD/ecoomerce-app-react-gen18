@@ -1,0 +1,12 @@
+.sign-up-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-page img {
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
